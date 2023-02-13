@@ -91,9 +91,9 @@ and follow these steps.
 Clone this repository to your desired folder:
 
 1. Download the **Zip** file or clone the repo with:
-```bash git clone https://github.com/Iqbal-Elham/personal_portfolio.git ``` 
+```bash git clone https://github.com/Iqbal-Elham/Math-Magician.git ``` 
 2. To access cloned directory run: 
-```bash cd Hello_micorverse ``` 
+```bash cd math-magician ``` 
 3. Open it with the live server 
 
 ### Install
@@ -122,7 +122,7 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 
 Enter the follow code to run the project locally:
 
-`cd my-project` then you can run `npm start` ; the project will run on port `3000`.
+`cd math-magician` then you can run `npm start` ; the project will run on port `3000`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
