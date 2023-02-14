@@ -1,49 +1,48 @@
 
 .calc-container {
-    height: 500px;
-    width: 500px;
-    margin: auto;
-    transform: translate(0, 50%);
-  }
-  
-  .result-screen {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: gray;
-    padding: 1rem 0.5rem;
-    font-size: 28px;
-    color: white;
-  }
-  
-  .buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-gap: 1.3px;
-  }
-  
-  .buttons button {
-    padding: 1.5rem;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-  }
-  
-  .buttons .gray-btn:hover,
-  .zero-btn:hover {
-    background-color: rgba(128, 128, 128, 0.397);
-  }
-  
-  .buttons .zero-btn {
-    grid-column: 1/3;
-  }
-  
-  .orange-btn {
-    background-color: orange;
-  }
-  
-  .orange-btn:hover {
-    background-color: rgb(255, 136, 0);
-  }
-  
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  transform: translate(0, 50%);
+}
+
+.result-screen {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: gray;
+  padding: 1rem 0.5rem;
+  font-size: 28px;
+  color: white;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 1.3px;
+}
+
+.buttons button {
+  padding: 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.buttons .gray-btn:hover,
+.zero-btn:hover {
+  background-color: rgba(128, 128, 128, 0.397);
+}
+
+.buttons .zero-btn {
+  grid-column: 1/3;
+}
+
+.orange-btn {
+  background-color: orange;
+}
+
+.orange-btn:hover {
+  background-color: rgb(255, 136, 0);
+}
