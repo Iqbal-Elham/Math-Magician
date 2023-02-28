@@ -12,6 +12,14 @@ const Home = () => (
       tempora dolores ratione dignissimos nisi dolore, vel mollitia impedit
       recusandae. Commodi, omnis? Impedit eius doloribus eum tempore ullam
       placeat nostrum!
+      <br />
+      <br />
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis qui
+      tempora dolores ratione dignissimos nisi dolore, vel mollitia impedit
+      recusandae. Commodi, omnis? Impedit eius doloribus eum tempore ullam
+      placeat nostrum!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis qui
+      tempora dolores ratione dignissimos nisi dolore, vel mollitia impedit
+      recusandae. Commodi, omnis? Impedit eius doloribus eum tempore ullam
     </p>
   </div>
 );

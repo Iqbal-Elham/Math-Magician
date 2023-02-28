@@ -4,7 +4,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 3rem;
     padding: 10rem;
@@ -34,7 +34,7 @@ h2 {
 }
 
 p {
-    font-size: 22px;
+    font-size: 25px;
     color: #08487c;
     position: relative;
     text-align: justify;
