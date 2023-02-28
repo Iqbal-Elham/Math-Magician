@@ -1,6 +1,6 @@
 import React from 'react';
-import Calculator from './Calculator.js';
 import styles from './styles/CalculatorPage.module.css';
+import Calculator from './Calculator';
 
 const CalculatorPage = () => (
   <div className={styles.content}>
