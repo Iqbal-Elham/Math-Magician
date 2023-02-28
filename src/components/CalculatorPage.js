@@ -1,7 +1,7 @@
 /* eslint-disable import/extensions */
 import React from 'react';
 import styles from './styles/CalculatorPage.module.css';
-import Calculator from './Calculator';
+import Calculator from './calculator';
 
 const CalculatorPage = () => (
   <div className={styles.content}>
