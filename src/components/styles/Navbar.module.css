@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 3rem;
-    border: 1px solid green;
+}
 
+.nav > h1 {
+    color: #07beb8;
+    font-family: 'Fredoka One', cursive;
 }
 
 .navlink {
     display: flex;
     gap: 2rem;
-    
+    font-size: 24px;
+}
+
+.navlink a {
+    text-decoration: none;
+
 }

@@ -5,14 +5,12 @@ import styles from './styles/Navbar.module.css';
 
 const Navbar = () => {
   const clickedStyle = ({ isActive }) => ({
-    color: isActive ? 'pink' : 'black',
+    color: isActive ? '#07beb8' : 'gray',
   });
   return (
     <>
       <nav className={styles.nav}>
-        <div>
-          <h1>Math Magician</h1>
-        </div>
+        <h1>Math Magician</h1>
         <div className={styles.navlink}>
           <NavLink style={clickedStyle} to="/">
             Home
