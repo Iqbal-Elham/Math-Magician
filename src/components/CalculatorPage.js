@@ -1,5 +1,5 @@
 import React from 'react';
-import Calculator from './Calculator';
+import Calculator from './Calculator.js';
 import styles from './styles/CalculatorPage.module.css';
 
 const CalculatorPage = () => (
