@@ -1,0 +1,45 @@
+.content {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;
+  padding: 10rem;
+}
+
+.content::before {
+  content: "";
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(241, 241, 241, 0.5),
+      #07beb893
+    ),
+    url(../../../assets/images/background-1.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.65;
+}
+
+h2 {
+  position: relative;
+  color: #1b448f;
+  font-size: 6rem;
+  line-height: 0.9;
+  text-align: center;
+  font-family: cursive;
+}
+
+p {
+  font-size: 25px;
+  color: #08487c;
+  position: relative;
+  text-align: justify;
+}

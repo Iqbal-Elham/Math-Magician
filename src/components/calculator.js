@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-import './calculator.css';
+import './Calculator.css';
 
 const Calculator = () => {
   const [state, setState] = useState({
@@ -25,25 +25,25 @@ const Calculator = () => {
     <div className="calc-container">
       <div className="result-screen">{ result(state) }</div>
       <div className="buttons">
-        <button type="button" onClick={(e) => calculation(e)} className="gray-btn">AC</button>
-        <button type="button" onClick={(e) => calculation(e)} className="gray-btn">+/-</button>
-        <button type="button" onClick={(e) => calculation(e)} className="gray-btn">%</button>
-        <button type="button" onClick={(e) => calculation(e)} className="orange-btn">/</button>
-        <button type="button" onClick={(e) => calculation(e)} className="gray-btn">7</button>
-        <button type="button" onClick={(e) => calculation(e)} className="gray-btn">8</button>
-        <button type="button" onClick={(e) => calculation(e)} className="gray-btn">9</button>
-        <button type="button" onClick={(e) => calculation(e)} className="orange-btn">*</button>
-        <button type="button" onClick={(e) => calculation(e)} className="gray-btn">4</button>
-        <button type="button" onClick={(e) => calculation(e)} className="gray-btn">5</button>
-        <button type="button" onClick={(e) => calculation(e)} className="gray-btn">6</button>
-        <button type="button" onClick={(e) => calculation(e)} className="orange-btn">-</button>
-        <button type="button" onClick={(e) => calculation(e)} className="gray-btn">1</button>
-        <button type="button" onClick={(e) => calculation(e)} className="gray-btn">2</button>
-        <button type="button" onClick={(e) => calculation(e)} className="gray-btn">3</button>
-        <button type="button" onClick={(e) => calculation(e)} className="orange-btn">+</button>
-        <button type="button" onClick={(e) => calculation(e)} className="zero-btn">0</button>
-        <button type="button" onClick={(e) => calculation(e)} className="gray-btn">.</button>
-        <button type="button" onClick={(e) => calculation(e)} className="orange-btn">=</button>
+        <button type="button" onClick={calculation} className="gray-btn">AC</button>
+        <button type="button" onClick={calculation} className="gray-btn">+/-</button>
+        <button type="button" onClick={calculation} className="gray-btn">%</button>
+        <button type="button" onClick={calculation} className="orange-btn">/</button>
+        <button type="button" onClick={calculation} className="gray-btn">7</button>
+        <button type="button" onClick={calculation} className="gray-btn">8</button>
+        <button type="button" onClick={calculation} className="gray-btn">9</button>
+        <button type="button" onClick={calculation} className="orange-btn">*</button>
+        <button type="button" onClick={calculation} className="gray-btn">4</button>
+        <button type="button" onClick={calculation} className="gray-btn">5</button>
+        <button type="button" onClick={calculation} className="gray-btn">6</button>
+        <button type="button" onClick={calculation} className="orange-btn">-</button>
+        <button type="button" onClick={calculation} className="gray-btn">1</button>
+        <button type="button" onClick={calculation} className="gray-btn">2</button>
+        <button type="button" onClick={calculation} className="gray-btn">3</button>
+        <button type="button" onClick={calculation} className="orange-btn">+</button>
+        <button type="button" onClick={calculation} className="zero-btn">0</button>
+        <button type="button" onClick={calculation} className="gray-btn">.</button>
+        <button type="button" onClick={calculation} className="orange-btn">=</button>
       </div>
     </div>
   );

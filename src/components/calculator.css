@@ -1,9 +1,7 @@
 
 .calc-container {
-  height: 500px;
+  position: inherit;
   width: 500px;
-  margin: auto;
-  transform: translate(0, 50%);
 }
 
 .result-screen {
