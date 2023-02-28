@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 import React from 'react';
 import styles from './styles/CalculatorPage.module.css';
 import Calculator from './Calculator';
