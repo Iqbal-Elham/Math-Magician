@@ -1,4 +1,3 @@
-
 import operate from './operate';
 
 describe('Operate module', () => {
@@ -46,5 +45,4 @@ describe('Operate module', () => {
     };
     expect(operate(cal.next, cal.total, cal.operation)).toBe('3');
   });
-
 });
