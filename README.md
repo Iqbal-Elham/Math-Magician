@@ -15,7 +15,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Math Magicians\] ](#-Math Magicians-)
+- 📖Math Magicians
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -28,7 +28,6 @@
     - [Run tests](#run-tests)
     - [Start the project](#start-the-project)
   - [👥 Author ](#-author-)
-  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -69,7 +68,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Coming Soon]()
+- [Math-magicians](https://math-magic-omhe.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
