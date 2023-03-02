@@ -138,15 +138,6 @@ Enter the follow code to run the project locally:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-
-- [ ] **[Add navigation bar]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -161,9 +152,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,16 +160,11 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+A great thanks to Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
