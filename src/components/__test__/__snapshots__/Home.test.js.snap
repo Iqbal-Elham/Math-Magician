@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Render the home user interaction 1`] = `
+exports[`Snapshot of the home page 1`] = `
 <div
   className="content"
 >

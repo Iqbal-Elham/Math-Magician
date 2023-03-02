@@ -4,7 +4,7 @@ import Calculator from './calculator';
 
 const CalculatorPage = () => (
   <div className={styles.content}>
-    <h2 data-testid='h2Id'>Let&apos;s Do Some Math!</h2>
+    <h2 data-testid="h2Id">Let&apos;s Do Some Math!</h2>
     <Calculator />
   </div>
 );
