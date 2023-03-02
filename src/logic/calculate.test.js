@@ -67,4 +67,21 @@ describe('Calculate module', () => {
     };
     expect(calculate(cal, '=').total).toBe('3');
   });
+
+  test('Test if +/- toggles positive/negative', () => {
+    expect(
+      calculate(
+        {
+          total: 10,
+          next: 3,
+          operation: null,
+        },
+        '+/-',
+      ),
+    ).toEqual({
+      total: 10,
+      next: '-3',
+      operation: null,
+    });
+  });
 });
